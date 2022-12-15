@@ -12,6 +12,7 @@ VC707 Evaluation Board
 
 # Project Structure:
 
+```
 .
 ├── DFT_Report.pdf                       # Detailed report of project
 ├── MBistController.v                    # Design files - Top module
@@ -20,7 +21,7 @@ VC707 Evaluation Board
 ├── MBistController_TB_behav.wdb         # Waveform Database File
 ├── ram.v                                # Design file - RAM module
 └── README.md
-
+```
 
 # Steps to Run project:
 - Open Vivado GUI.
