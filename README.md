@@ -10,7 +10,7 @@ Xilinx Vivado
 ## Hardware device
 VC707 Evaluation Board
 
-# Project Structure:
+## Project Structure:
 
 ```
 .
@@ -23,7 +23,7 @@ VC707 Evaluation Board
 └── README.md
 ```
 
-# Steps to Run project:
+## Steps to Run project:
 - Open Vivado GUI.
 - In the TCL console, type: cd {to the path where .wdb & .wcg is present}
 Run the following:
@@ -34,7 +34,7 @@ open_wave_database xxxx.wdb
 open_wave_config xxxx.wcfg
 ```
 
-# About Project:
+## About Project:
 To test semiconductor memories, one of the most widely used techniques is MBIST (Memory Built-in Self-Test). We are using March algorithms since March based tests are simple and possess good fault coverage. The primary purpose of this project is to implement MBIST using the MARCH algorithm on an 8x8 memory cell and detect stuck-at faults, transition faults & coupling faults.
 <br>
 There are many DFT techniques used to test the memories. But each method has its pros & cons. 
@@ -61,23 +61,25 @@ Step4: read 0 with Decreasing addressing order
 Note: Detailed explanation present in DTF_Report.pdf
 
 
-## MBIST Architecture
+### MBIST Architecture
+<p align="center">
 <img src="https://user-images.githubusercontent.com/69337981/207967761-5928ed76-ca54-49dc-98e5-73f457d6d67f.png" width="500" height="400"> 
+</p>
 
-# Simulation Results
-## Fault free
-<img src="https://user-images.githubusercontent.com/69337981/207963773-34212a11-5e0e-42d6-b190-6465fcc62ea8.png" width="500" height="400"> 
+## Simulation Results
+### Fault free
+<img src="https://user-images.githubusercontent.com/69337981/207963773-34212a11-5e0e-42d6-b190-6465fcc62ea8.png" width="500" height="400" align="center"> 
 
-## Stuck at faults
+### Stuck at faults
 <img src="https://user-images.githubusercontent.com/69337981/207963818-f947c1a2-cd95-44bd-8401-25082d5e9519.png" width="500" height="300"> <img src="https://user-images.githubusercontent.com/69337981/207963866-332ffbb0-1e5a-485d-ae15-3639437da9c1.png" width="500" height="300">
 
-## Transition faults
+### Transition faults
 <img src="https://user-images.githubusercontent.com/69337981/207963889-37f69af8-6afd-4914-b726-d78534bf6a43.png" width="500" height="300"> <img src="https://user-images.githubusercontent.com/69337981/207963912-47a16956-9c63-40b5-83b3-d7341a21beac.png" width="500" height="300">
 
-## Coupling Faults
+### Coupling Faults
 <img src="https://user-images.githubusercontent.com/69337981/207963955-90e9ac2d-f6fb-4a0e-901a-004d0cd2dcd3.png" width="500" height="400">
 
-# Conclusion:
+## Conclusion:
 We have successfully implemented the MBIST using March March X algorithm and tested its functionality by adding a few faults into the memory and detecting it. We have inserted the following faults and successfully detected them.
 <img src="https://user-images.githubusercontent.com/69337981/207969176-7e27f396-a230-4ea8-9cfb-195bfc3cb1d8.png" width="400" height="300"> 
 
