@@ -52,10 +52,10 @@ MARCH ALGORITHM:
 A March test consists of a finite sequence of March elements. A March element is a finite sequence of operations applied to every cell in the memory array before proceeding to the next cell. An operation can consist of writing a 0 into a cell (w0), writing a one into a cell (w1), reading an expected 0 from a cell (r0), and reading an expected one from a cell (r1).
 
 March X Algorithm:
-Step1: write 0 with Increasing addressing order
-Step2: read 0 and write 1 with Increasing addressing order
-Step3: read 1 and write 0 with Decreasing addressing order
-Step4: read 0 with Decreasing addressing order
+- Step1: write 0 with Increasing addressing order
+- Step2: read 0 and write 1 with Increasing addressing order
+- Step3: read 1 and write 0 with Decreasing addressing order
+- Step4: read 0 with Decreasing addressing order
 
 <br>
 Note: Detailed explanation present in DTF_Report.pdf
