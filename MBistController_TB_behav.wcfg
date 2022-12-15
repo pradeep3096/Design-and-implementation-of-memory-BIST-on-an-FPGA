@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="MBistController_TB_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="MBistController_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="2184000001fs"></ZoomEndTime>
+      <Cursor1Time time="3850000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="566"></NameColumnWidth>
+      <ValueColumnWidth column_width="382"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="18" />
+   <wvobject fp_name="/MBistController_TB/MBist_inst/clk" type="logic">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/rst" type="logic">
+      <obj_property name="ElementShortName">rst</obj_property>
+      <obj_property name="ObjectShortName">rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/test_mode" type="logic">
+      <obj_property name="ElementShortName">test_mode</obj_property>
+      <obj_property name="ObjectShortName">test_mode</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/fault" type="array">
+      <obj_property name="ElementShortName">fault[1:0]</obj_property>
+      <obj_property name="ObjectShortName">fault[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/bist_status" type="logic">
+      <obj_property name="ElementShortName">bist_status</obj_property>
+      <obj_property name="ObjectShortName">bist_status</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/state" type="array">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/wr_en_gen" type="logic">
+      <obj_property name="ElementShortName">wr_en_gen</obj_property>
+      <obj_property name="ObjectShortName">wr_en_gen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/rd_en_gen" type="logic">
+      <obj_property name="ElementShortName">rd_en_gen</obj_property>
+      <obj_property name="ObjectShortName">rd_en_gen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/data_in_gen" type="logic">
+      <obj_property name="ElementShortName">data_in_gen</obj_property>
+      <obj_property name="ObjectShortName">data_in_gen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/wraddr_gen" type="array">
+      <obj_property name="ElementShortName">wraddr_gen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wraddr_gen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/rdaddr_gen" type="array">
+      <obj_property name="ElementShortName">rdaddr_gen[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rdaddr_gen[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/wr_en_mux" type="logic">
+      <obj_property name="ElementShortName">wr_en_mux</obj_property>
+      <obj_property name="ObjectShortName">wr_en_mux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/rd_en_mux" type="logic">
+      <obj_property name="ElementShortName">rd_en_mux</obj_property>
+      <obj_property name="ObjectShortName">rd_en_mux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/data_in_mux" type="logic">
+      <obj_property name="ElementShortName">data_in_mux</obj_property>
+      <obj_property name="ObjectShortName">data_in_mux</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/wraddr_mux" type="array">
+      <obj_property name="ElementShortName">wraddr_mux[3:0]</obj_property>
+      <obj_property name="ObjectShortName">wraddr_mux[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/rdaddr_mux" type="array">
+      <obj_property name="ElementShortName">rdaddr_mux[3:0]</obj_property>
+      <obj_property name="ObjectShortName">rdaddr_mux[3:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/addr_rst" type="logic">
+      <obj_property name="ElementShortName">addr_rst</obj_property>
+      <obj_property name="ObjectShortName">addr_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/MBistController_TB/MBist_inst/data_out_mem" type="logic">
+      <obj_property name="ElementShortName">data_out_mem</obj_property>
+      <obj_property name="ObjectShortName">data_out_mem</obj_property>
+   </wvobject>
+</wave_config>
