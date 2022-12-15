@@ -11,14 +11,16 @@ Xilinx Vivado
 VC707 Evaluation Board
 
 # Project Structure:
-|-DFT_Report.pdf
-|-MBistController.v
-|-MBistController_TB.v
-|-MBistController_TB_behav.wcfg
-|-MBistController_TB_behav.wdb
-|-ram.v
 
-The DFT_Report contains a detailed report of the project. The files ending with TB are the main test bench files. 
+.
+├── DFT_Report.pdf                       # Detailed report of project
+├── MBistController.v                    # Design files - Top module
+├── MBistController_TB.v                 # Test Bench
+├── MBistController_TB_behav.wcfg        # Waveform Configuration file
+├── MBistController_TB_behav.wdb         # Waveform Database File
+├── ram.v                                # Design file - RAM module
+└── README.md
+
 
 # Steps to Run project:
 - Open Vivado GUI.
