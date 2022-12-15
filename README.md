@@ -62,7 +62,7 @@ Note: Detailed explanation present in DTF_Report.pdf
 
 
 ## MBIST Architecture
-![image](https://user-images.githubusercontent.com/69337981/207967761-5928ed76-ca54-49dc-98e5-73f457d6d67f.png)
+<img src="https://user-images.githubusercontent.com/69337981/207967761-5928ed76-ca54-49dc-98e5-73f457d6d67f.png" width="500" height="400"> 
 
 # Simulation Results
 ## Fault free
@@ -79,6 +79,5 @@ Note: Detailed explanation present in DTF_Report.pdf
 
 # Conclusion:
 We have successfully implemented the MBIST using March March X algorithm and tested its functionality by adding a few faults into the memory and detecting it. We have inserted the following faults and successfully detected them.
-![image](https://user-images.githubusercontent.com/69337981/207969176-7e27f396-a230-4ea8-9cfb-195bfc3cb1d8.png)
-<img src="https://user-images.githubusercontent.com/69337981/207969176-7e27f396-a230-4ea8-9cfb-195bfc3cb1d8.png" width="300" height="300"> 
+<img src="https://user-images.githubusercontent.com/69337981/207969176-7e27f396-a230-4ea8-9cfb-195bfc3cb1d8.png" width="400" height="300"> 
 
