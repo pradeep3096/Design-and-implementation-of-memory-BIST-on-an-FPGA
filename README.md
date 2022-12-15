@@ -59,15 +59,14 @@ Note: Detailed explanation present in DTF_Report.pdf
 
 
 ## MBIST Architecture
-![image](https://user-images.githubusercontent.com/69337981/207958571-da89675c-4309-4fe7-98e0-3f477f413816.png)
+![image](https://user-images.githubusercontent.com/69337981/207967761-5928ed76-ca54-49dc-98e5-73f457d6d67f.png)
 
 # Simulation Results
 ## Fault free
 ![image](https://user-images.githubusercontent.com/69337981/207963773-34212a11-5e0e-42d6-b190-6465fcc62ea8.png)
 
 ## Stuck at faults
-<img src="https://user-images.githubusercontent.com/69337981/207963818-f947c1a2-cd95-44bd-8401-25082d5e9519.png" width="100" height="100">
-<img src="https://user-images.githubusercontent.com/69337981/207963866-332ffbb0-1e5a-485d-ae15-3639437da9c1.png" width="100" height="100">
+<img src="https://user-images.githubusercontent.com/69337981/207963818-f947c1a2-cd95-44bd-8401-25082d5e9519.png" width="100" height="100"> <img src="https://user-images.githubusercontent.com/69337981/207963866-332ffbb0-1e5a-485d-ae15-3639437da9c1.png" width="100" height="100">
 
 ![image](https://user-images.githubusercontent.com/69337981/207963818-f947c1a2-cd95-44bd-8401-25082d5e9519.png)
 ![image](https://user-images.githubusercontent.com/69337981/207963866-332ffbb0-1e5a-485d-ae15-3639437da9c1.png)
